@@ -1613,6 +1613,16 @@
     "@ethersproject/properties" "^5.0.0"
     "@ethersproject/strings" "^5.0.0"
 
+"@excswap/default-token-list@^1.0.1":
+  "integrity" "sha512-kSwFhK21nRL8pKnBZOsnxJqOoG1XoSjBsmfJZG1sSfx8sOhPUSB+f47pFPdD3xm4iGg6qYgzTiVoB3UguiQdig=="
+  "resolved" "https://registry.npmjs.org/@excswap/default-token-list/-/default-token-list-1.0.1.tgz"
+  "version" "1.0.1"
+
+"@excswap/token-lists@1.0.0":
+  "integrity" "sha512-PGclLFuDFJD6RTmi+QgR6VU22bPeBmSyF9NzKD0BHPrSvodsPgB6h7yJY6FEPoh86iStlnr5EIWoLBY65zNOgg=="
+  "resolved" "https://registry.npmjs.org/@excswap/token-lists/-/token-lists-1.0.0.tgz"
+  "version" "1.0.0"
+
 "@hapi/address@2.x.x":
   "integrity" "sha512-QD1PhQk+s31P1ixsX0H0Suoupp3VMXzIVMSwobR3F3MSUO2YCV0B7xqLcUw/Bh8yuvd3LhpyqLQWTNcRmp6IdQ=="
   "resolved" "https://registry.npmjs.org/@hapi/address/-/address-2.1.4.tgz"
@@ -2540,20 +2550,10 @@
     "semver" "^7.3.2"
     "tsutils" "^3.17.1"
 
-"@uniswap/default-token-list@^1.3.1":
-  "integrity" "sha512-nLBSzWGxVlbKby6xtf3ph56NltMyHCk8ohFD97Wub7K0I66YyHKuhyV7NZq05unB8TEWWpYDcdghmgztSv6H8Q=="
-  "resolved" "https://registry.npmjs.org/@uniswap/default-token-list/-/default-token-list-1.3.1.tgz"
-  "version" "1.3.1"
-
 "@uniswap/lib@1.1.1":
   "integrity" "sha512-2yK7sLpKIT91TiS5sewHtOa7YuM8IuBXVl4GZv2jZFys4D2sY7K5vZh6MqD25TPA95Od+0YzCVq6cTF2IKrOmg=="
   "resolved" "https://registry.npmjs.org/@uniswap/lib/-/lib-1.1.1.tgz"
   "version" "1.1.1"
-
-"@uniswap/token-lists@^1.0.0-beta.15":
-  "integrity" "sha512-cxubml6fPCjPPr8tWnA3IQkYbTocsZTJWac2C5WRXoHiSd7O4xjuBISdGLT9dW7IojKYpMXnCPJS8kAwqqYXDQ=="
-  "resolved" "https://registry.npmjs.org/@uniswap/token-lists/-/token-lists-1.0.0-beta.15.tgz"
-  "version" "1.0.0-beta.15"
 
 "@uniswap/v2-core@^1.0.0", "@uniswap/v2-core@1.0.0":
   "integrity" "sha512-BJiXrBGnN8mti7saW49MXwxDBRFiWemGetE58q8zgfnPPzQKq55ADltEILqOt6VFZ22kVeVKbF8gVd8aY3l7pA=="

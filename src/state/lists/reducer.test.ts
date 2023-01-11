@@ -3,7 +3,7 @@ import { DEFAULT_LIST_OF_LISTS, DEFAULT_TOKEN_LIST_URL } from '../../constants/l
 import { updateVersion } from '../global/actions'
 import { fetchTokenList, acceptListUpdate, addList, removeList, selectList } from './actions'
 import reducer, { ListsState } from './reducer'
-import UNISWAP_DEFAULT_TOKEN_LIST from '@uniswap/default-token-list'
+import UNISWAP_DEFAULT_TOKEN_LIST from '@excswap/default-token-list'
 
 const STUB_TOKEN_LIST = {
   name: '',
@@ -421,7 +421,7 @@ describe('list reducer', () => {
               loadingRequestId: null,
               pendingUpdate: null
             },
-            'https://unpkg.com/@uniswap/default-token-list@latest': {
+            'https://unpkg.com/@excswap/default-token-list@latest': {
               error: null,
               current: STUB_TOKEN_LIST,
               loadingRequestId: null,
@@ -437,7 +437,7 @@ describe('list reducer', () => {
         expect(
           store.getState().byUrl['https://raw.githubusercontent.com/tokencontent/tokenlist/main/token.json']
         ).toBeUndefined()
-        expect(store.getState().byUrl['https://unpkg.com/@uniswap/default-token-list@latest']).toBeUndefined()
+        expect(store.getState().byUrl['https://unpkg.com/@excswap/default-token-list@latest']).toBeUndefined()
       })
 
       it('puts in all the new lists', () => {
@@ -477,7 +477,7 @@ describe('list reducer', () => {
               loadingRequestId: null,
               pendingUpdate: null
             },
-            'https://unpkg.com/@uniswap/default-token-list@latest': {
+            'https://unpkg.com/@excswap/default-token-list@latest': {
               error: null,
               current: STUB_TOKEN_LIST,
               loadingRequestId: null,
@@ -485,7 +485,7 @@ describe('list reducer', () => {
             }
           },
           selectedListUrl: undefined,
-          lastInitializedDefaultListOfLists: ['https://unpkg.com/@uniswap/default-token-list@latest']
+          lastInitializedDefaultListOfLists: ['https://unpkg.com/@excswap/default-token-list@latest']
         })
         store.dispatch(updateVersion())
       })
@@ -501,7 +501,7 @@ describe('list reducer', () => {
         })
       })
       it('removes lists in the last initialized list of lists', () => {
-        expect(store.getState().byUrl['https://unpkg.com/@uniswap/default-token-list@latest']).toBeUndefined()
+        expect(store.getState().byUrl['https://unpkg.com/@excswap/default-token-list@latest']).toBeUndefined()
       })
 
       it('adds all the lists in the default list of lists', () => {
